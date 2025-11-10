@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"href="style.css" />
+        <title>Cows</title>
+        <style>
+            p {
+                color: rgb(98, 35, 198);
+                size: 1000px;
+            }
+            #bonjour {
+                color: rgb(20, 212, 148);
+                size: 100px;
+            }
+            body {
+                background-image: linear-gradient(to bottom, rgb(255, 144, 144), rgb(255, 212, 132), rgb(255, 255, 171), rgb(169, 255, 169), rgb(165, 165, 255), rgb(233, 146, 255));
+            }
+        </style>
+        <script>
+            document.addEventListener("click", function(event) {
+  const img = document.createElement("img");
+  img.src = "https://static.vecteezy.com/system/resources/thumbnails/047/392/273/small/a-black-and-white-dairy-cow-standing-with-an-udder-visible-png.png"; 
+  img.classList.add("falling-image");
+
+  img.style.left = event.clientX + "px";
+  img.style.top = event.clientY + "px";
+
+  document.body.appendChild(img);
+});
+
+        </script>
+    </head>
+    <body><center>
+        <h1>Jainer's Jolly Joyful Journey </h1>
+        <p>
+            Hello World, my life sucks..
+            Today I woke up and fell on my face. Then I realized... <b>I love cows</b>
+        </p>
+        <p>(click for a surprise!)
+        </p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_5WmVEZw5C9TN_2zOoAXzccSRKwOhSfb900NLE89_KE3E9Pc1aE02n-rR3NPfwZi_GZiKJtOeU9clAgaERNVlrxGuyWxRRaLFBCUBVP1tvg&s=10" alt="" width="500
+        px">
+    </center></body>
+</html>
